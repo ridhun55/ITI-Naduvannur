@@ -1334,14 +1334,14 @@ Latest News
 {
 	width: 131px;
 	height: 131px;
-	border: solid 2px #ffb606;
+	border: solid 2px #2b89a7;
 	margin-bottom: 18px;
 }
 .event_day
 {
 	font-size: 48px;
 	font-weight: 700;
-	color: #ffb606;
+	color: #2b89a7;
 	margin-bottom: 1px;
 	line-height: 1;
 }
@@ -1349,7 +1349,7 @@ Latest News
 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #ffb606;
+	color: #2b89a7;
 }
 .event_name a
 {
@@ -1374,6 +1374,7 @@ Latest News
 	color: #a5a5a5;
 	margin-top: 21px;
 	margin-bottom: 13px;
+	line-height: 1.6;
 }
 .event_image
 {
