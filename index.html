@@ -8,6 +8,9 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="description" content="Course Project">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gayathri:wght@100;400;700&family=Orbitron:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
       <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
       <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
       <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -36,8 +39,9 @@
                   <div class="main_nav">
                      <ul class="main_nav_list">
                         <li class="main_nav_item"><a href="index.html">home</a></li>
-                        <li class="main_nav_item"><a href="#">about us</a></li>
-                        <li class="main_nav_item"><a href="courses.html">courses</a></li>
+                        <li class="main_nav_item"><a href="about.html">about</a></li>
+                        <li class="main_nav_item"><a href="404.html">courses</a></li>
+                        <li class="main_nav_item"><a href="gallery.html">gallery</a></li>
                         <li class="main_nav_item"><a href="contact.html">contact</a></li>
                      </ul>
                   </div>
@@ -45,7 +49,7 @@
             </div>
             <div class="header_side d-flex flex-row justify-content-center align-items-center">
                <img src="images/phone-call.svg" alt="">
-               <span style="font-size: 20px;">+91 8089552581</span>
+               <a href="tel:+91 8089552581"><span style="font-size: 20px;">+91 8089552581</span></a>
             </div>
             <div class="hamburger_container">
                <i class="fas fa-bars trans_200"></i>
@@ -62,10 +66,9 @@
                <div class="menu menu_mm">
                   <ul class="menu_list menu_mm">
                      <li class="menu_item menu_mm"><a href="index.html">Home</a></li>
-                     <li class="menu_item menu_mm"><a href="#">About us</a></li>
-                     <li class="menu_item menu_mm"><a href="courses.html">Courses</a></li>
-                     <li class="menu_item menu_mm"><a href="elements.html">Elements</a></li>
-                     <li class="menu_item menu_mm"><a href="news.html">News</a></li>
+                     <li class="menu_item menu_mm"><a href="about.html">About Us</a></li>
+                     <li class="menu_item menu_mm"><a href="404.html">Courses</a></li>
+                     <li class="menu_item menu_mm"><a href="gallery.html">Gallery</a></li>
                      <li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>
                   </ul>
                   <!-- Menu Social -->
@@ -146,31 +149,37 @@
                <div class="container">
                   <div class="row">
                      <div class="col-lg-4 hero_box_col">
-                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                           <img src="images/earth-globe.svg" class="svg" alt="">
-                           <div class="hero_box_content">
-                              <h2 class="hero_box_title">Certifications</h2>
-                              <a href="courses.html" class="hero_box_link">view more</a>
+                        <a href="certification.html">
+                           <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+                              <img src="images/earth-globe.svg" class="svg" alt="">
+                              <div class="hero_box_content">
+                                 <h2 class="hero_box_title">Certifications</h2>
+                                 <a href="certification.html" class="hero_box_link">view more</a>
+                              </div>
                            </div>
-                        </div>
+                        </a>
                      </div>
                      <div class="col-lg-4 hero_box_col">
-                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                           <img src="images/books.svg" class="svg" alt="">
-                           <div class="hero_box_content">
-                              <h2 class="hero_box_title">Courses</h2>
-                              <a href="courses.html" class="hero_box_link">view more</a>
+                        <a href="404.html">
+                           <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+                              <img src="images/books.svg" class="svg" alt="">
+                              <div class="hero_box_content">
+                                 <h2 class="hero_box_title">Courses</h2>
+                                 <a href="404.html" class="hero_box_link">view more</a>
+                              </div>
                            </div>
-                        </div>
+                        </a>
                      </div>
                      <div class="col-lg-4 hero_box_col">
-                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                           <img src="images/professor.svg" class="svg" alt="">
-                           <div class="hero_box_content">
-                              <h2 class="hero_box_title">Placements</h2>
-                              <a href="teachers.html" class="hero_box_link">view more</a>
+                        <a href="404.html">
+                           <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+                              <img src="images/professor.svg" class="svg" alt="">
+                              <div class="hero_box_content">
+                                 <h2 class="hero_box_title">Placements</h2>
+                                 <a href="404.html" class="hero_box_link">view more</a>
+                              </div>
                            </div>
-                        </div>
+                        </a>
                      </div>
                   </div>
                </div>
@@ -214,8 +223,8 @@
                      <div class="card">
                         <img class="card-img-top" src="images/course/course_1.jpg">
                         <div class="card-body text-center">
-                           <div class="card-title"><a href="courses.html">Civil Engineering</a></div>
-                           <div class="card-text">About the Course and Syllabus <a href=""> ReadMore...</a></div>
+                           <div class="card-title"><a href="404.html">Civil Engineering</a></div>
+                           <div class="card-text">About the Course and Syllabus <a href="404.html"> ReadMore...</a></div>
                         </div>
                         <div class="price_box d-flex flex-row align-items-center">
                            <div class="course_author_name"><span>We Guarantee You </span>- Govt Scholarship</div>
@@ -228,8 +237,8 @@
                      <div class="card">
                         <img class="card-img-top" src="images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
                         <div class="card-body text-center">
-                           <div class="card-title"><a href="courses.html">Draughtsman Civil</a></div>
-                           <div class="card-text">About the Course and Syllabus <a href=""> ReadMore...</a></div>
+                           <div class="card-title"><a href="404.html">Draughtsman Civil</a></div>
+                           <div class="card-text">About the Course and Syllabus <a href="404.html"> ReadMore...</a></div>
                         </div>
                         <div class="price_box d-flex flex-row align-items-center">
                            <div class="course_author_name"><span>We Guarantee You </span>- Govt Scholarship</div>
@@ -242,8 +251,8 @@
                      <div class="card">
                         <img class="card-img-top" src="images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
                         <div class="card-body text-center">
-                           <div class="card-title"><a href="courses.html">Front Office Assistant</a></div>
-                           <div class="card-text">About the Course and Syllabus <a href=""> ReadMore...</a></div>
+                           <div class="card-title"><a href="404.html">Front Office Assistant</a></div>
+                           <div class="card-text">About the Course and Syllabus <a href="404.html"> ReadMore...</a></div>
                         </div>
                         <div class="price_box d-flex flex-row align-items-center">
                            <div class="course_author_name"><span>We Guarantee You </span>- Govt Scholarship</div>
@@ -257,7 +266,7 @@
                         <img class="card-img-top" src="images/course_2.jpg" alt="https://unsplash.com/@cikstefan">
                         <div class="card-body text-center">
                            <div class="card-title"><a href="courses.html" style="font-size: 21px;">School of Information Technology</a></div>
-                           <div class="card-text">About the Course and Syllabus <a href=""> ReadMore...</a></div>
+                           <div class="card-text">About the Course and Syllabus <a href="404.html"> ReadMore...</a></div>
                         </div>
                         <div class="price_box d-flex flex-row align-items-center">
                            <div class="course_author_name"><span>We Guarantee You </span>- Govt Scholarship</div>
@@ -270,8 +279,8 @@
                      <div class="card">
                         <img class="card-img-top" src="images/course_2.jpg" alt="https://unsplash.com/@cikstefan">
                         <div class="card-body text-center">
-                           <div class="card-title"><a href="courses.html">Software Training</a></div>
-                           <div class="card-text">About the Course and Syllabus <a href=""> ReadMore...</a></div>
+                           <div class="card-title"><a href="404.html">Software Training</a></div>
+                           <div class="card-text">About the Course and Syllabus <a href="404.html"> ReadMore...</a></div>
                         </div>
                         <div class="price_box d-flex flex-row align-items-center">
                            <div class="course_author_name"><span>We Guarantee You </span>- Govt Scholarship</div>
@@ -284,8 +293,8 @@
                      <div class="card">
                         <img class="card-img-top" src="images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
                         <div class="card-body text-center">
-                           <div class="card-title"><a href="courses.html">IC Programming</a></div>
-                           <div class="card-text">About the Course and Syllabus <a href=""> ReadMore...</a></div>
+                           <div class="card-title"><a href="404.html">IC Programming</a></div>
+                           <div class="card-text">About the Course and Syllabus <a href="404.html"> ReadMore...</a></div>
                         </div>
                         <div class="price_box d-flex flex-row align-items-center">
                            <div class="course_author_name"><span>We Guarantee You </span>- Govt Scholarship</div>
@@ -298,8 +307,8 @@
                      <div class="card">
                         <img class="card-img-top" src="images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
                         <div class="card-body text-center">
-                           <div class="card-title"><a href="courses.html">Electronics</a></div>
-                           <div class="card-text">About the Course and Syllabus <a href=""> ReadMore...</a></div>
+                           <div class="card-title"><a href="404.html">Electronics</a></div>
+                           <div class="card-text">About the Course and Syllabus <a href="404.html"> ReadMore...</a></div>
                         </div>
                         <div class="price_box d-flex flex-row align-items-center">
                            <div class="course_author_name"><span>We Guarantee You </span>- Govt Scholarship</div>
@@ -312,8 +321,8 @@
                      <div class="card">
                         <img class="card-img-top" src="images/course_3.jpg" alt="https://unsplash.com/@dsmacinnes">
                         <div class="card-body text-center">
-                           <div class="card-title"><a href="courses.html">PCB Designing</a></div>
-                           <div class="card-text">About the Course and Syllabus <a href=""> ReadMore...</a></div>
+                           <div class="card-title"><a href="404.html">PCB Designing</a></div>
+                           <div class="card-text">About the Course and Syllabus <a href="404.html"> ReadMore...</a></div>
                         </div>
                         <div class="price_box d-flex flex-row align-items-center">
                            <div class="course_author_name"><span>We Guarantee You </span>- Govt Scholarship</div>
@@ -411,74 +420,7 @@
                </div>
             </div>
          </div>
-         <!-- Testimonials -->
-         <div class="testimonials page_section">
-            <!-- <div class="testimonials_background" style="background-image:url(images/testimonials_background.jpg)"></div> -->
-            <div class="testimonials_background_container prlx_parent">
-               <div class="testimonials_background prlx" style="background-image:url(images/testimonials_background.jpg)"></div>
-            </div>
-            <div class="container">
-               <div class="row">
-                  <div class="col">
-                     <div class="section_title text-center">
-                        <h1>What our students say</h1>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-10 offset-lg-1">
-                     <div class="testimonials_slider_container">
-                        <!-- Testimonials Slider -->
-                        <div class="owl-carousel owl-theme testimonials_slider">
-                           <!-- Testimonials Item -->
-                           <div class="owl-item">
-                              <div class="testimonials_item text-center">
-                                 <div class="quote">“</div>
-                                 <p class="testimonials_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                                 <div class="testimonial_user">
-                                    <div class="testimonial_image mx-auto">
-                                       <img src="images/testimonials_user.jpg" alt="">
-                                    </div>
-                                    <div class="testimonial_name">james cooper</div>
-                                    <div class="testimonial_title">Graduate Student</div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Testimonials Item -->
-                           <div class="owl-item">
-                              <div class="testimonials_item text-center">
-                                 <div class="quote">“</div>
-                                 <p class="testimonials_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                                 <div class="testimonial_user">
-                                    <div class="testimonial_image mx-auto">
-                                       <img src="images/testimonials_user.jpg" alt="">
-                                    </div>
-                                    <div class="testimonial_name">james cooper</div>
-                                    <div class="testimonial_title">Graduate Student</div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Testimonials Item -->
-                           <div class="owl-item">
-                              <div class="testimonials_item text-center">
-                                 <div class="quote">“</div>
-                                 <p class="testimonials_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                                 <div class="testimonial_user">
-                                    <div class="testimonial_image mx-auto">
-                                       <img src="images/testimonials_user.jpg" alt="">
-                                    </div>
-                                    <div class="testimonial_name">james cooper</div>
-                                    <div class="testimonial_title">Graduate Student</div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         
+
 
 			<!-- Events -->
          <div class="events page_section">
@@ -524,7 +466,7 @@
                  
 						<div class="text-center">
 							<h3 style="color: black;">To know all Our Events</h3>
-							<a class="btn btn-secondary btn-sm" href="events">Click Here</a>
+							<a class="btn btn-secondary btn-sm" href="404.html">Click Here</a>
 						</div>
                </div>
             </div>
@@ -564,8 +506,7 @@
                         <!-- Logo -->
                         <div class="logo_container">
                            <div class="logo">
-                              <img src="images/logo.png" alt="">
-                              <span>course</span>
+                              <span style="font-size: 20px;">ITI&nbsp;Naduvannur</span>
                            </div>
                         </div>
                         <p class="footer_about_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum, tempor lacus.</p>
@@ -577,7 +518,7 @@
                            <ul>
                               <li class="footer_list_item"><a href="index.html">Home</a></li>
                               <li class="footer_list_item"><a href="#">About Us</a></li>
-                              <li class="footer_list_item"><a href="courses.html">Courses</a></li>
+                              <li class="footer_list_item"><a href="404.html">Courses</a></li>
                               <li class="footer_list_item"><a href="news.html">News</a></li>
                               <li class="footer_list_item"><a href="contact.html">Contact</a></li>
                            </ul>
@@ -629,7 +570,7 @@
                   <div class="footer_copyright">
                      <span>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This site is Design by <a href="index.html" target="_blank">STC Naduvannur</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                      </span>
                   </div>

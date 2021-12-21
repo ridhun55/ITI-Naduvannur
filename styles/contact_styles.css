@@ -71,11 +71,11 @@ ul
 }
 p
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
-	line-height: 2.29;
+	/* line-height: 2.29; */
 	font-weight: 400;
-	color: #a5a5a5;
+	color: #555454;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -350,7 +350,7 @@ section
 .main_nav_item
 {
 	display: inline-block;
-	margin-right: 40px;
+	margin-right: 12px;
 }
 .main_nav_item:last-child
 {
